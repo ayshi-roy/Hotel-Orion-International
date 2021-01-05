@@ -1,0 +1,69 @@
+.main-contact .contact-form label{
+    color: gray;
+    font-weight: bold;
+}
+.main-contact .contact-form input{
+    font-size: 16px;
+    
+}
+.main-contact .contact-form textarea{
+    font-size: 16px;
+    
+}
+.main-contact .contact-form button{
+    border-radius: 25px;
+    background: red; 
+    width: 160px;
+    border: red;
+    padding: 10px;
+}
+.slider-part{
+    background: url(../../images/photo_gallary/gal_3.jpg) no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 670px;
+    background-position: center;
+}
+.slider-about-part{
+    background: url(../../images/about.jpg) no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 670px;
+    background-position: center;
+}
+.slider-shadow{
+    background: rgba(0, 0, 0, 0.4);    
+    padding: 88px 100px;    
+    height: 670px;
+    
+}
+.slider-text h1{
+    font-size: 70px;
+    padding-top: 170px;
+} 
+.contact-number p{
+    color: gray;
+    margin-left: 180px;
+    
+}
+.contact-number .p-bold{
+    font-weight: bold;
+}
+.about-text{
+    color: gray;
+    font-weight: bold;
+}
+.video {
+    position: relative;
+}
+.video .video-img{
+    position: absolute;
+    display: block;
+    background: url(../../images/img_1.jpg);
+    height: 200px;
+    width: 100%;
+    top: 250px;
+    left: 320px; 
+        /* background-size: 100px 100px; */
+    background-repeat: no-repeat;
+}

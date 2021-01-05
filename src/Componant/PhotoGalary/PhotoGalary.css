@@ -1,0 +1,23 @@
+/* .gallery-img{
+    width: 350px;
+    height: 220px;
+} */
+.img-gallery {
+    max-width: 285px;
+    height: auto;
+    cursor: zoom-in;
+}
+/* img {
+    vertical-align: middle;
+    border-style: none;
+    margin: 0;
+} */
+.gallery-body img{
+    transition: .2s all ease;
+    opacity: 1;
+}
+.gallery-body img:hover{
+    opacity: 0.5;
+}
+  
+  

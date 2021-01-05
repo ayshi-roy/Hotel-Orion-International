@@ -1,0 +1,29 @@
+.navbar{
+    height: 100px;
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    
+  }
+  .navbar-toggle-icon-change{
+     color: 'black';
+  }
+  
+.navbar.active {
+    background: linear-gradient(to right,#FFF,#FFFF,#FFFF);
+    color: black;
+    height: 70px;
+   
+} 
+.navbar-nav .nav-item .nav-link{
+  font-size: 14px;
+}
+ 
+  .nav-link:hover{
+    position: relative;
+  }
+  
+  .navbar-brand{
+    color: #0E2431;  
+  }
