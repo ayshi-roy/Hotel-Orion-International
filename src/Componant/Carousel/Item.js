@@ -9,7 +9,8 @@ const Item = ({item}) => {
             <Paper>
                 <div className="img-carousel" style={{'backgroundImage': `url(${img})`}}>
                     <div className="shadow-part">
-                        <div className="img-text text-center" style={{paddingTop:'195px'}}>
+                        <div className="img-text text-center" style={{paddingTop:'150px'}}>
+                            <h2 style={{color:'black'}}>{item.title}</h2>
                             <h1 style={{color:'white',fontSize:'60px'}}>{item.name}</h1>
                             <h1 style={{color:'white',fontSize:'60px'}}>{item.name2}</h1>
                             <p className="text-white">{item.description}</p>

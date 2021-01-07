@@ -1,26 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
-.img-carousel{
-  /* -webkit-background-size: cover;
-    background-size: cover;     
-    background-position: center; */
+.img-carousel{  
     -webkit-background-size: cover;
     background-size: cover;
     height: 670px;
     background-position: center;
-    
+    background-attachment: fixed;
 }
 .img-carousel h1{  
   font-family: 'Playfair Display', serif;
 }
-/* .img-carousel{
-  height: 100vh;
-  width: 100%;
-} */
+
 .shadow-part{
-  background: rgba(0, 0, 0, 0.4);    
+  background: rgba(0, 0, 0, 0.5);    
     padding: 88px 100px;    
     height: 670px;
-  /* background: rgba(0, 0, 0, 0.4); 
-  height: 100vh;
-  width: 2500vh; */
+ 
 }

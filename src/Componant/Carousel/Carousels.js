@@ -12,7 +12,8 @@ import Item from './Item';
 const Carousels = () => {
 
     var items = [
-        {
+        {   
+            title: "Welcome To",
             name: "Hotel Orion",
             name2:"International",
             description: "Life style & hotel",

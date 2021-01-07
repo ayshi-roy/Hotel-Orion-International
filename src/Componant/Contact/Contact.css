@@ -23,6 +23,7 @@
     background-size: cover;
     height: 670px;
     background-position: center;
+    background-attachment: fixed;
 }
 .slider-about-part{
     background: url(../../images/about.jpg) no-repeat;
@@ -30,6 +31,7 @@
     background-size: cover;
     height: 670px;
     background-position: center;
+    background-attachment: fixed;
 }
 .slider-shadow{
     background: rgba(0, 0, 0, 0.4);    
@@ -57,13 +59,12 @@
     position: relative;
 }
 .video .video-img{
-    position: absolute;
+    position: relative;
     display: block;
     background: url(../../images/img_1.jpg);
     height: 200px;
     width: 100%;
-    top: 250px;
-    left: 320px; 
-        /* background-size: 100px 100px; */
+    top: -70px;
+    left: 200px;     
     background-repeat: no-repeat;
 }
